@@ -2,7 +2,7 @@
 
 $num1 = readline ("Digite um valor:  ");
 
-$num2 = readline ("Digite o 2º valor:50  ");
+$num2 = readline ("Digite o 2º valor:   ");
 
 $produto = $num1 * $num2;
 
