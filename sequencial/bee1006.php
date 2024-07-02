@@ -8,7 +8,7 @@ $n3 = readline ("Digite a nota do terceiro trimestre:  ");
 
 $media = (($n1 * 2) + ($n2 * 3) + ($n3 * 5))/10;
 
-echo "Média = " .number_format($media, 6.3,".", " ");
+echo "Média = " .number_format($media,1,".", " ");
 
 
 
