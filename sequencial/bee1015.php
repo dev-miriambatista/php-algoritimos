@@ -4,6 +4,7 @@
 //distância entre eles, mostrando 4 casas decimais após a vírgula, 
 //segundo a fórmula:
 
+
 //Distancia : raiz quadrada(sqrt) de 
              //(x2 - x1)² + 
              //(y2 - y1)²
@@ -19,7 +20,7 @@ $p1 = explode(" " , readline ("Valores do primeiro eixo:   "));
 $x1 = (float) $p1[0];
 $y1 = (float) $p1[1];
 
-
+           //separar valores
 $p2 = explode (" ", readline ("Valores do segundo eixo:  "));
 
 $x2 = (float) $p2[0];
@@ -28,3 +29,5 @@ $y2 = (float) $p2[1];
 $distancia = sqrt(pow($x2 - $x1, 2) + pow ($y2 -$y1,2));
 
 echo "Distancia:" . number_format($distancia, 4, ".", "");
+
+//php .\sequencial\bee1015.php
