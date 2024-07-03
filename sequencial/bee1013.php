@@ -2,13 +2,13 @@
 
 $valores= explode (" " ,readline("Digite os 3 valores:   "));
 
-$valor1 = (int)$valores[0];
-$valor2 = (int)$valores[1];
-$valor3 = (int)$valores[2];
+$a = (int)$valores[0];
+$b = (int)$valores[1];
+$c = (int)$valores[2];
 
-$maiorAB = ($valor1 + $valor2 + abs($valor1-$valor2)) / 2 ;
+$maiorAB = ($a + $b + abs($a-$b)) / 2 ;
 
-$maior = ($maiorAB + $valor3 + abs($maiorAB - $valor3)) / 2;
+$maior = ($maiorAB + $c + abs($maiorAB - $c)) / 2;
 
 echo "$maior eh o maior";
 
