@@ -8,3 +8,4 @@ $d = 8;
 $diferenca = (($a * $b) - ($c * $d));
 
 echo "Diferença = $diferenca";
+
