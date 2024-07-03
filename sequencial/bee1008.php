@@ -9,6 +9,4 @@ $salario = $valorht * $ht;
 echo "NUMBER = $number\n"; 
 echo "SALARY = " . number_format($salario, 2, ".", " ");
 
-
-
 //php .\sequencial\bee1008.php
