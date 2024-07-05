@@ -2,7 +2,7 @@
 
 $n = (int) readline("Valor recebido em dinheiro:    ");
 
-$resto = (int) ($ * 100) . PHP_EOL;
+//$resto = (int) ($ * 100) . PHP_EOL;
 
 echo "NOTAS:" . PHP_EOL;
 
