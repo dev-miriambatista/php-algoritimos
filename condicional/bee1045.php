@@ -1,6 +1,6 @@
 <?php
 
-$valores = explode(" ",readline(" digite o valor: "));
+$valores = explode(" ", readline(" digite o valor: "));
 
 rsort($valores);
 $a = $valores[0];
@@ -25,21 +25,22 @@ $c = $valores[2];
 
 //$a =$maior; $b = $meio; $c = $menor;
 
-if($a >= $b + $c){
-    echo "NAO FORMA TRIANGULO". PHP_EOL;
-} else{
-    if (pow($a,2) == pow($b,2) + pow($c,2)){
-    echo " TRIANGULO RETANGULO". PHP_EOL;
-        }else if (pow($a,2) > pow($b,2) + pow($c,2)){
-        echo " TRIANGULO OBTUSANGULO". PHP_EOL;
-        }else if (pow($a,2) < (pow($b,2)+pow($c,2))){
+if ($a >= $b + $c) {
+    echo "NAO FORMA TRIANGULO" . PHP_EOL;
+} else {
+    if (pow($a, 2) == pow($b, 2) + pow($c, 2)) {
+        echo " TRIANGULO RETANGULO" . PHP_EOL;
+    } else if (pow($a, 2) > pow($b, 2) + pow($c, 2)) {
+        echo " TRIANGULO OBTUSANGULO" . PHP_EOL;
+    } else if (pow($a, 2) < (pow($b, 2) + pow($c, 2))) {
 
-        }
-        
-        echo "TRIANGULO ACUTANGULO". PHP_EOL;
+    }
 
-        }if ($a == $b && $b == $c){
-            echo " TRIANGULO EQUILATERO". PHP_EOL;
-        }else if ($a == $b && $a != $c || $a == $c && $a!= $b || $b == $c && $b!=$a){
-            echo "TRIANGULO ISOSCELES". PHP_EOL;
-        }
+    echo "TRIANGULO ACUTANGULO" . PHP_EOL;
+
+}
+if ($a == $b && $b == $c) {
+    echo " TRIANGULO EQUILATERO" . PHP_EOL;
+} else if ($a == $b && $a != $c || $a == $c && $a != $b || $b == $c && $b != $a) {
+    echo "TRIANGULO ISOSCELES" . PHP_EOL;
+}

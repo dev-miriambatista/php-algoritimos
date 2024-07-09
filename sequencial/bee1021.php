@@ -7,32 +7,32 @@ $n = (int) readline("Valor recebido em dinheiro:    ");
 echo "NOTAS:" . PHP_EOL;
 
 $nota = 100;
-$quociente = (int)($resto / $moeda * 100);
+$quociente = (int) ($resto / $moeda * 100);
 echo "$quociente moeda(s) de R$1.00" . PHP_EOL;
 $resto = $resto % ($nota * 100);
 
 $nota = 50;
-$quociente = (int)($resto / $moeda * 100);
+$quociente = (int) ($resto / $moeda * 100);
 echo "$quociente moeda(s) de R$1.00" . PHP_EOL;
 $resto = $resto % ($nota * 100);
 
 $nota = 20;
-$quociente = (int)($resto / $moeda *100);
+$quociente = (int) ($resto / $moeda * 100);
 echo "$quociente moeda(s) de R$1.00" . PHP_EOL;
 $resto = $resto % ($nota * 100);
 
 $nota = 10;
-$quociente = (int)($resto / $moeda *100);
+$quociente = (int) ($resto / $moeda * 100);
 echo "$quociente moeda(s) de R$1.00" . PHP_EOL;
 $resto = $resto % ($nota * 100);
 
 $nota = 5;
-$quociente = (int)($resto / $moeda *100);
+$quociente = (int) ($resto / $moeda * 100);
 echo "$quociente moeda(s) de R$1.00" . PHP_EOL;
 $resto = $resto % ($nota * 100);
 
 $nota = 2;
-$quociente = (int)($resto / $moeda *100);
+$quociente = (int) ($resto / $moeda * 100);
 echo "$quociente moeda(s) de R$1.00" . PHP_EOL;
 $resto = $resto % ($nota * 100);
 
@@ -50,34 +50,34 @@ echo "$notas2 nota(s) de R$2,00" . PHP_EOL;
 echo "$notas1 nota(s) de R$1,00" . PHP_EOL;
 
 $nota = 100;
-$quociente = (int)($resto / $moeda);
+$quociente = (int) ($resto / $moeda);
 echo "$quociente moeda(s) de R$1.00" . PHP_EOL;
-$resto = $resto %$moeda;
+$resto = $resto % $moeda;
 
 $nota = 50;
-$quociente = (int)($resto / $moeda);
+$quociente = (int) ($resto / $moeda);
 echo "$quociente moeda(s) de R$1.00" . PHP_EOL;
-$resto = $resto %$moeda;
+$resto = $resto % $moeda;
 
 $nota = 25;
-$quociente = (int)($resto / $moeda);
+$quociente = (int) ($resto / $moeda);
 echo "$quociente moeda(s) de R$1.00" . PHP_EOL;
-$resto = $resto %$moeda;
+$resto = $resto % $moeda;
 
 $nota = 10;
-$quociente = (int)($resto / $moeda);
+$quociente = (int) ($resto / $moeda);
 echo "$quociente moeda(s) de R$1.00" . PHP_EOL;
-$resto = $resto %$moeda;
+$resto = $resto % $moeda;
 
 $nota = 5;
-$quociente = (int)($resto / $moeda);
+$quociente = (int) ($resto / $moeda);
 echo "$quociente moeda(s) de R$1.00" . PHP_EOL;
-$resto = $resto %$moeda;
+$resto = $resto % $moeda;
 
 $nota = 1;
-$quociente = (int)($resto / $moeda);
+$quociente = (int) ($resto / $moeda);
 echo "$quociente moeda(s) de R$1.00" . PHP_EOL;
-$resto = $resto %$moeda;
+$resto = $resto % $moeda;
 
 echo "MOEDAS:";
 echo "$notas100 nota(s) de R$1.00" . PHP_EOL;

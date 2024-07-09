@@ -17,12 +17,12 @@ if ($media >= 7.0) {
     echo " ALUNO REPROVADO." . PHP_EOL;
 } else if ($media >= 5.0 && $media <= 6.9) {
     echo "ALUNO EM EXAME" . PHP_EOL;
-$nota_exame = (float) readline("Nota: "); //6.4
-echo " Nota do exame :" . number_format($nota_exame, 1, ".", " ") . PHP_EOL;
-$media_final = ($nota_exame + $media) / 2;
-if ($media_final > 5.0) {
-    echo " ALUNO APROVADO" . PHP_EOL;
-} else {
-    echo "ALUNO REPROVADO" . PHP_EOL;
-}
+    $nota_exame = (float) readline("Nota: "); //6.4
+    echo " Nota do exame :" . number_format($nota_exame, 1, ".", " ") . PHP_EOL;
+    $media_final = ($nota_exame + $media) / 2;
+    if ($media_final > 5.0) {
+        echo " ALUNO APROVADO" . PHP_EOL;
+    } else {
+        echo "ALUNO REPROVADO" . PHP_EOL;
+    }
 }

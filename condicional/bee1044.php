@@ -1,6 +1,6 @@
 <?php
 
-$valores = explode(" ",readline("Digite 2 números: "));
+$valores = explode(" ", readline("Digite 2 números: "));
 
 $n1 = (int) $valores[0];
 $n2 = (int) $valores[1];
