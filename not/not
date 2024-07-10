@@ -39,4 +39,38 @@ Quarto grupo:
 1021 - mod / (desafio - casting)
 
 1061 - mod / string(desafio - interpretação)
+
+
+
+
+
+[08:59] Mateus Ramos Pereira
+Estrutura condicional - Exercícios propostos
+EXERCÍCIOS PROPOSTOS
+ 
+***Estrutura condicional***:
+ 
+Estudo mínimo recomendado:
+ 
+  - Primeiro grupo (mais básicos): 1035, 1038, 1044, 1046, 1048
+ 
+  - Segundo grupo: 1037, 1040 (use float), 1041, 1045, 1047, 1051, 
+
+1049(como a entrada de dados é do tipo texto (string), em S.O. Windows, para leitura ficar correta no momento dos testes, deve-se atribuir o /r no lines conforme abaixo:
+
+var lines = input.split('\r\n');
+ 
+Lembrar que para postar no URI, não é necessário o \r, senão irá apresentar erro, manter o padrão conforme abaixo:
+
+var lines = input.split('\n');
+ 
+ 
+ 
+Exercícios suplementares:
+ 
+  - 1042, 1043, 1050, 1052, 1060, 1064, 1065, 1066, 1070
+
+
+
+ 
  
