@@ -25,5 +25,5 @@ $imposto = ($valor - 2000.00) * 0.08;
 
 
 echo "IMPOSTO= " .number_format($taxa, 2, "."," ");
-
+//
 //php .\condicional\bee1051.php

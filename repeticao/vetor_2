@@ -1,0 +1,19 @@
+<?php
+
+$n = (int) readline ("Quantidade de números: ");
+$valores = explode (" ", readline ("Vaores: "));
+
+$pares = [] ;
+
+for ($i = 0; $i < $n ; $i ++) {
+    if ($valores[$i] % 2 == 0){
+        array_push($pares, $valores[$i]);
+    }
+}
+
+for ($i=0; $i < count($pares); $i++ ) {
+    echo $pares[$i] . " ";
+}
+
+echo PHP_EOL;
+echo count($pares);
