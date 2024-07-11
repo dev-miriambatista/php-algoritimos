@@ -1,11 +1,11 @@
 <?php
 
-$a = 5;
-$b = 6;
-$c = 7;
-$d = 8;
+$a = (int)readline("Informe o 1º valor: ");
+$b = (int)readline("Informe o 2º valor: ");
+$c = (int)readline("Informe o 3º valor: ");
+$d = (int)readline("Informe o 4º valor: ");
 
 $diferenca = (($a * $b) - ($c * $d));
 
-echo "Diferença = $diferenca";
+echo "DIFERENCA = $diferenca" . PHP_EOL;
 

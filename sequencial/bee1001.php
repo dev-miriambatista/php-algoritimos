@@ -1,11 +1,8 @@
 <?php
 //entrada de dados:
-echo "Digite o 1º número:  ";
-$valor1 = (int)readline();
+$valor1 = (int)readline("Digite o 1º número:  ");
 
-
-echo "Digite o 2º número:  ";
-$valor2 = (int)readline();
+$valor2 = (int)readline("Digite o 2º número:  ");
 
 //Processamento
 
@@ -13,5 +10,5 @@ $soma = $valor1 + $valor2;
 
 //saída (interpolação de string)
 
-echo "Resultado da soma = $soma";
+echo "Resultado da soma = $soma" . PHP_EOL;
 
