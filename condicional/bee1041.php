@@ -20,5 +20,5 @@ if ($x > 0 && $y > 0){
     }else if ($x > || $x < 0 && $y == 0){
 echo "Eixo x". PHP_EOL;
 }else{
-    echo " Está na origem";
+    echo "Está na origem";
 }

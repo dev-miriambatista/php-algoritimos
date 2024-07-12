@@ -1,15 +1,16 @@
 <?php
 
 $cod = explode(" ", (readline ("Qual combustível? ")));
+
 while ($cod !=4){
     swith ($cod) {
-        case1:
+        case 1:
             $alcool++;
             break;
-            case2:
+            case 2:
                 $alcool++;
                 break;
-                case3:
+                case 3:
                     $alcool++;
                     break;
     }
